@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap');
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    background-color: #000000;
+    width: 100%;
+    font-size: 13px;
+}
+
+.nav, .nav a {
+    color: #ffffff;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.ramitis {
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    line-height: 50px;
+    border-radius: 7px;
+}
+
+.ramitis:hover {
+    border: 1px solid #ffffff
+}
+
+.svitra {
+    border-bottom: 5px solid transparent;
+    padding: 10px 20px;
+    transition: 0.35s;
+}
+
+.svitra:hover {
+    border-bottom: 5px solid #ffffff;
+}
+
+.numurs {
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    line-height: 50px;
+    border-radius: 7px;
+}
+
+.numurs:hover {
+    border: 1px solid #ffffff
+}
+
+.contact {
+    border: 3px solid #326938;
+    padding: 7px 17px;
+    line-height: 50px;
+    border-radius: 7px;
+}
+
+.contact:hover {
+    background: #326938;
+}
+
+.top {
+    background-image: url("https://picsum.photos/id/204/2000/800");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 90vh;
+}
+
+.top p {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 250px;
+    font-size: 2em;
+}
+
+.top h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 100px;  
+}
+
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bilde-1, .bilde-2, .bilde-3 {
+    height: 300px;
+}
+
+.bilde-1 {
+    background-image: url("https://picsum.photos/id/1015/600/370");
+}
+
+.bilde-2 {
+    background-image: url("https://picsum.photos/id/1043/600/370");
+}
+
+.bilde-3 {
+    background-image: url("https://picsum.photos/id/1036/600/370");
+}
+
+.no-gutter > [class*='col-4'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.poga  {
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-size: 1.8em;
+}
+
+.poga:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.poga h5 {
+    padding: 120px 0 0 0;
+    transition: all 0.5s;
+}
+
+.poga h2 {
+    padding-top:25px;
+    transition: all 0.5s;
+}
+
+.poga:hover h5 {
+    padding: 130px 0 0 0;
+}
+
+.top-2 {
+    background-image: url("https://vivaexpeditions.com/themes/base/production/images/group-expeditions-bg-min.jpg?fbclid=IwAR25gMuzj2Xs2ZDp9mrE4bji_P0XIRP1ZvONOVS44h-3Plw31FbFePx35K8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+
+}
+
+.h-2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    color: #2C2E2E;
+  
+}
+
+.apals {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.greenbutton {
+    color: white;
+    font-size: 18px;
+    border: 1px solid #326938;
+    background:  #326938;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: all 500ms ease;
+}
+
+.greenbutton:hover {
+    background: rgb(33, 59, 33);
+    text-decoration: none;
+    color:white;
+}
+
+.about h6 {
+    color: green;
+    font-size: 20px;  
+}
+
+.about h3 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+.about p {
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+}
+
+.bilde5 {
+    margin:0;
+    width: 100%;
+    float: right;
+}
+
+.greybutton {
+    border: 1px solid #2C2E2E;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #2C2E2E;
+    transition: all 500ms ease;
+}
+
+.greybutton:hover {
+    text-decoration: none;
+    background: #2C2E2E;
+    color: #ffffff;
+}
+
+
+.top-4 {
+    background-image: url("https://picsum.photos/id/852/2000/700");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+.virsraksts {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.texts2 p {
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+
+
+.whitebutton {
+    border: 1px solid #ffffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
+.whitebutton:hover {
+    text-decoration: none;
+    background: #ffffff;
+    color: rgb(46, 45, 45);
+}
+
+.fons {
+    background-color: #2C2E2E;
+    align-items: center;   
+}
+
+.image {
+    background-image: url(img/picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.image-3 {
+    background-image: url(https://picsum.photos/id/110/275/405);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    }
+
+.image h5 {
+    color: white;
+    padding-top: 35px;
+}
+
+.image-3 h5 {
+    color: rgb(19, 18, 18);
+    padding-top: 35px;
+}
+
+.links:hover {
+    text-decoration: none;
+}
+
+.no-gutter > [class*='col-md-3'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+.button h5 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 21px;
+  
+}
+
+.txt {
+    background-color: #ffffff;
+    color: rgb(36, 34, 34);
+    min-height: 300px;
+}
+
+.txt p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.rinda {
+    background-color: rgb(40, 51, 40);
+    color: white;  
+}
+
+.subscribe {
+    padding: 3px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.litllebutton {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgb(67, 184, 67);
+    background-color: rgb(67, 184, 67);
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+
+.litllebutton:hover {
+    text-decoration: none;
+    background-color: rgb(37, 153, 37);
+    color: #ffffff;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 12px;
+    color: #2C2E2E;
+}
+
+.links:hover {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer {
+    position: relative;
+    background-color: whitesmoke;
+    z-index: 1;
+    padding: 13px 0 12px;
+    align-items: center;
+}
+
+.line span {
+    font-size: 13px;
+    color: gray;
+    padding: 0 130px 0 0;
+}
+
+.footbutton {
+    font-size: 13px;
+    color: gray;
+}
+
+.footbutton:hover {
+    text-decoration: none;
+    color: black;
+}
+.footer p {
+    font-size: 13px;
+}
+
